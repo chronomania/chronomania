@@ -20,8 +20,8 @@ Criar uma base limpa e organizada para fansites se basearem em futuros projetos.
 
 ## Membros
 
-- Vinícius "vico" Pontin - Frontend;
-- Matheus Garcias - Backend,
+- Vinícius "vico" Pontin > @vpontin - Frontend;
+- Matheus Garcias > @Uberraschung - Backend.
 
 ## Licença
 
