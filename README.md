@@ -7,12 +7,14 @@ O projeto consiste em um fã-site (por padrão com a temática da série Chrono 
 
 ## Especificações técnicas
 
-O projeto consiste de um sistema com três módulos, um para a home, outro para o fórum e outro para a wiki.
+Este repositório contém uma coleção de módulos para o CMS Wordpress com plugin bbpress para um sistema com três módulos, um para a home (Wordpress nativo), outro para o fórum (bbpress) e outro para a wiki (plugin próprio / páginas nativas).
 
 ### Tecnologias
 - PHP;
 - HTML5;
-- CSS3.
+- CSS3;
+- Bootstrap;
+- Wordpress;
 
 ## Motivação
 
