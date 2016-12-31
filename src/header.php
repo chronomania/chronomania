@@ -14,24 +14,27 @@
 		<nav id="site_navbar" class="navbar navbar-fixed-top navbar-dark bg-inverse">
 			<!-- Conteúdo da Navbar -->
 			<div class="container">
-				<!-- Nome do projeto -->
-				<!-- <a class="navbar-brand" href="#">Vreprosk</a> -->
-				
-				<!-- Seções do site (ícone caso viewport pequeno, texto caso contrário -->
-				<ul class="nav navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#"><span class="hidden-lg-up"><i class="fa fa-home fa-2x" aria-hidden="true"></i> </span><span class="hidden-md-down">Início</span><span class="sr-only"> (atual)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="hidden-lg-up"><i class="fa fa-users fa-2x" aria-hidden="true"></i> </span><span class="hidden-md-down">Fórum</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="hidden-lg-up"><i class="fa fa-book fa-2x" aria-hidden="true"></i> </span><span class="hidden-md-down">Enciclopédia</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><span class="hidden-lg-up"><i class="fa fa-flag fa-2x" aria-hidden="true"></i> </span><span class="hidden-md-down">Sobre</span></a>
-					</li>
-				</ul>
-
+				<div class="clearfix">
+					<button class="navbar-toggler float-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bd-main-nav" aria-controls="bd-main-nav" aria-expanded="false" aria-label="Toggle navigation"></button>
+					<a class="navbar-brand hidden-sm-up" href="/">
+					ChronoMania
+					</a>
+				</div>
+				<div class="collapse navbar-toggleable-xs" id="bd-main-nav">
+					<ul class="nav navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-item nav-link active" href="/">ChronoMania</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link " href="/">Fóruns</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link " href="/">Enciclopédia</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="/">Sobre</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
